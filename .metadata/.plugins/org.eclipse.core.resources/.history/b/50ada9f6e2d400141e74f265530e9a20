@@ -6,12 +6,9 @@ public class PrimeFactors {
 	public static List<Integer> generate(int i) {
 
 		ArrayList<Integer> primes = new ArrayList<Integer>();
-		int subject = 2;
-		while (i > 1){
-		for(;i % subject == 0; i /= subject){
-			primes.add(subject);
-		}
-		subject ++;
+		while(i % 2 == 0){
+			primes.add(2);
+			i /= 2;
 		}
 		if(i > 1){
 			primes.add(i);
