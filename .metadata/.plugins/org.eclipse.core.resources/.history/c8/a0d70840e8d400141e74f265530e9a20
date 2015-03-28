@@ -15,8 +15,7 @@ public class PrimeNumberGenTest {
     public static Collection<Object[]> data() {
         return Arrays.asList(new Object[][] {     
                  { 1, list() },
-                 { 2, list() },
-                 { 3, list(2) }
+                 { 2, list(2) }
                  });
     }
 
