@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="PrimeNumberGenTest" project="PrimeFactorGenerater" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="PrimeNumberGenTest" time="0.0">
+    <testsuite name="[0]" time="0.0">
+      <testcase name="test[0]" classname="PrimeNumberGenTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[1]" time="0.0">
+      <testcase name="test[1]" classname="PrimeNumberGenTest" time="0.0"/>
+    </testsuite>
+  </testsuite>
+</testrun>
