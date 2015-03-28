@@ -23,8 +23,4 @@ public class PrimeFactorizationTest {
 	public void testtwo() throws Exception {
 		assertEquals(list(2),PrimeFactors.generate(2));
 	}
-	@Test
-	public void testthree() throws Exception {
-		assertEquals(list(3), PrimeFactors.generate(3));
-	}
 }
