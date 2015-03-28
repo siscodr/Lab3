@@ -39,7 +39,7 @@ public class PrimeNumberGenTest {
 	
     @Test
     public void test() {
-    	System.out.println("Input: " + nInput + " Result: " + primeNumberGenerator.generate(nInput) );
+    	System.out.println("Input: " + pExpected + " Result: " + primeNumberGenerator.generate(nInput) );
         assertEquals(pExpected, primeNumberGenerator.generate(nInput));
     }
 }
