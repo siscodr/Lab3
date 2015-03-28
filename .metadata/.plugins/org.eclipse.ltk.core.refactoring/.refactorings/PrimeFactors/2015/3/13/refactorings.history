@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract local variable &apos;primes&apos; from expression &apos;new ArrayList&lt;Integer&gt;()&apos;&#x0D;&#x0A;- Original project: &apos;PrimeFactors&apos;&#x0D;&#x0A;- Variable name: &apos;primes&apos;&#x0D;&#x0A;- Destination method: &apos;PrimeFactors.generate()&apos;&#x0D;&#x0A;- Variable expression: &apos;new ArrayList&lt;Integer&gt;()&apos;&#x0D;&#x0A;- Replace occurrences of expression with variable" description="Extract local variable &apos;primes&apos;" final="false" id="org.eclipse.jdt.ui.extract.temp" input="/src&lt;{PrimeFactors.java" name="primes" replace="true" selection="115 24" stamp="1427502278187" version="1.0"/>
+</session>
