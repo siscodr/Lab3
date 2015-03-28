@@ -1,0 +1,33 @@
+import static org.junit.Assert.assertEquals;
+
+import java.util.Arrays;
+import java.util.Collection;
+
+import org.junit.*;
+import org.junit.runner.RunWith;
+import org.junit.runners.Parameterized;
+import org.junit.runners.Parameterized.Parameters;
+
+@RunWith(Parameterized.class)
+public class PrimeNumberGenTest {
+    @Parameters
+    public static Collection<Object[]> data() {
+        return Arrays.asList(new Object[][] {     
+                 { 1, 0 }
+                 });
+    }
+
+    private int nInput;
+
+    private int pExpected;
+
+    public PrimeNumberGenTest(int input, int expected) {
+        nInput= input;
+        pExpected= expected;
+    }
+
+    @Test
+    public void test() {
+        assertEquals(pExpected, primeNumberGenerator.generate(nInput));
+    }
+}
